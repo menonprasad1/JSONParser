@@ -7,7 +7,13 @@ import os
 
 #filepath = "/Users/pmenon/Automation/gerrit/qe_ifra/qe-infra/linux/nightlies/IBM-2.6-Secure.json"
 
-USAGE = "USAGE : python jsonpar.py -p <path to json file> [-d]"
+USAGE = '''
+
+INCORRECT USAGE 
+USAGE : python jsonpar.py -p <path to json file> [-d]
+
+
+'''
 
 logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
 logger = logging.getLogger("JSON PARSER")
